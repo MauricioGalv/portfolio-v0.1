@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauricio Galván</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="fonts/work-sans/WorkSans-Regular.ttf" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="bgIframe">
+        <iframe allowtransparence="true" width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/tls3zS?gui=false&t=10&paused=false&muted=true" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+        <svg class="noiseFilterbg" viewBox='0 0 200 800' xmlns='http://www.w3.org/2000/svg'>
+        <filter id='noiseFilter'>
+            <feTurbulence 
+              type='fractalNoise' 
+              baseFrequency='3' 
+              numOctaves='6' 
+              stitchTiles='stitch'/>
+          </filter>
+          <rect width='100%' height='100%' filter='url(#noiseFilter)'/>
+        </svg>
+    </div>
+
+    <div class="bodyPadding"> 
+        <div class="bodyMargin">
+            
+        <header>
+            <div class="myName">
+            <h1>Mauricio Galván</h1>
+            <h3>design, web dev, visual arts</h3>  
+            </div>
+        </header>
+            <div class="bottomFlex">
+                <div class="navLinks">
+                <ul>
+                    <li class="active"><a href="#Home">Home</a></li>
+                    <li><a href="#aboutme"><img class="arrow-menu" src="assets/arrow.png">aboutme</a></li>
+                    <li><a href="#projects"><img class="arrow-menu" src="assets/arrow.png">projects</a></li>
+                    <li><a href="#gallery"><img class="arrow-menu" src="assets/arrow.png">gallery</a></li>
+                    <li><a href="#contact"><img class="arrow-menu" src="assets/arrow.png">contact</a></li>
+                </ul>
+                </div>
+
+            <div class="contentPage" id="contentPageUrl">
+                <section class="flexIntro" id="Home">
+                    <div class="welcomeMessage">
+                        <h3>bienvenido.</h3>
+                        <h3>welcome.</h3>
+                        <h3>ようこそ.</h3>
+                    </div>
+                </section>
+                <section class="flexAboutme" id="aboutme">
+                    <div class="aboutmeText">
+                        <p>Nacido en 2003, de Monterrey, México.<br>
+                            Me dedico al diseño y desarrollo web, busco crear proyectos que tengan un atractivo visual
+                            con el fin de mejorar y adquirir habilidades en el proceso para experimentar formas de expresión en ambos campos.
+                        </p>
+                    </div>
+                </section>
+                <section class="flexProjects" id="projects">
+                    <div class="design-projects-section">
+                        <ul><a href="#">/graphic design/</a>
+                                <li>CommuteCo - eScooter app - <a href="https://www.behance.net/gallery/168440175/CommuteCo-eScooter-rental-app-branding-uxui" target="_blank">branding</a><img class="arrow-menu-projects" src="assets/arrowup.png"> <a href="https://docs.google.com/presentation/d/1xw8SSf9Ik_T2xTNXu4NjtS2qRC6CEyAkf8Sgk5Gj28E/edit?usp=sharing" target="_blank">, uxui <img class="arrow-menu-projects" src="assets/arrowup.png"></a></li>
+                                <li>LinguaPal - language learning app - branding<a href="https://docs.google.com/presentation/d/1KBDq4SdjmjrOhJveqMsKfP5n24cgfdxYR-vQg5I3KL4/edit#slide=id.p" target="_blank">, uxui</a><img class="arrow-menu-projects" src="assets/arrowup.png"></a></li>
+                                <li>fashion brand website - branding<a href="https://docs.google.com/presentation/d/1KBDq4SdjmjrOhJveqMsKfP5n24cgfdxYR-vQg5I3KL4/edit#slide=id.p" target="_blank">, uxui</a><img class="arrow-menu-projects" src="assets/arrowup.png"></a></li>
+                                <li>ropes - <a href="https://www.behance.net/gallery/165174497/ropes" target=”_blank”>poster collection<img class="arrow-menu-projects" src="assets/arrowup.png"></a></li>
+                                <li>hall lines -<a href="https://www.behance.net/gallery/167031535/lines-museum-collection" target=”_blank”> poster collection<img class="arrow-menu-projects" src="assets/arrowup.png"></a></li>
+                        </ul>
+
+                        <ul><a href="#">/web development/</a>
+                            <li>landing page</li>
+                            <li><a href="https://mauriciogalv.github.io/calculator/" target="_blank">calculator</a></li>
+                            <li><a href="https://mauriciogalv.github.io/Challenge-Oracle-ONE/" target="_blank">encriptador</a></li>
+                        </ul>
+
+                        <ul><a href="#">/visual arts</a>
+                            
+                        </ul>
+                    </div>
+
+                </section>
+                <section class="flexGallery" id="gallery">
+                    <div class="messageText-gallery">
+                        <p>soon
+                        </p>
+                    </div>
+                </section>
+                <section class="flexContact" id="contact">
+                    <div class="contactText">
+                        
+                        <ul>
+                            <li><a href="#"><button>cv</button></a></li>
+                            <li><a href="https://www.instagram.com/_mau.galv" target="_blank"><img class="arrow-menu-contact" src="assets/arrowup.png">instagram</a></li>
+                            <li><a href="https://github.com/MauricioGalv" target="_blank"><img class="arrow-menu-contact" src="assets/arrowup.png">github</a></li>
+                            <li><a href="https://www.behance.net/maugalv" target="_blank"><img class="arrow-menu-contact" src="assets/arrowup.png">behance</a></li>
+                        </ul>
+                    </div>
+                    <div class="websiteCredits">
+                        <p>v0.1</p>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        </div>
+        
+    </div>
+<!--preloader-->
+    <div class="loader">
+        <div class="loadingtext">
+            <p>mauriciogalvan portfolio</p>
+        </div>
+    </div>
+<!---->
+</body>
+</html>
