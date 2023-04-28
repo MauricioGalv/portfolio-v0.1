@@ -40,7 +40,7 @@ body {
     padding: 20px;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+
 }
 .bodyMargin {
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -262,14 +262,35 @@ a:hover .arrow-menu {
     
 }
 
+/* scrollbar */
+*::-webkit-scrollbar {
+    width: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: #1616166e;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #a8a8a881;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #a8a8a8b6;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #a8a8a8bd;
+  }
+
 /* projects-section*/
 
 /* projects */
 .flexProjects {
-
     display: flex;
     flex-direction: column;
-    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 70%;
     min-width: 100%;
 }
 .design-projects-section ul li{
