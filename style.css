@@ -1,7 +1,7 @@
 @font-face { font-family: WorkSans-Regular; src: url('fonts/work-sans/WorkSans-Regular.ttf'); }
 @font-face { font-family: WorkSans-Light; src: url('fonts/work-sans/WorkSans-Light.ttf'); }
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+@font-face { font-family: WorkSans-Regular; src: url('fonts/work-sans/WorkSans-Regular.ttf'); }
+@font-face { font-family: Manrope-Regular; src: url('fonts/Manrope/static/Manrope-Regular.ttf'); }
 
 body {
 
@@ -83,10 +83,10 @@ body {
 }
 .myName h3 {
     font-weight: 200;
-    font-family: "WorkSans-Light";
+    font-family: "WorkSans-Light", 'sans-serif';
 }
 .myName h1 {
-    font-family: "Manrope";
+    font-family: "Manrope-Regular", 'sans-serif';
     font-size: 36px;
     font-weight: 400;
 }
@@ -98,7 +98,7 @@ body {
     padding: 0;
 
     font-size: 24px;
-    font-family: "Manrope";
+    font-family: "Manrope-Regular", 'sans-serif';
     width: 20%;
     height: 77vh;
 }
@@ -162,7 +162,7 @@ a:hover .arrow-menu {
     margin: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'WorkSans-Light';
+    font-family: 'WorkSans-Light', 'sans-serif';
     color: white;
     width: 25%;
     text-align: right;
@@ -184,7 +184,7 @@ a:hover .arrow-menu {
     margin: 0;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: "WorkSans-Light";
+    font-family: "WorkSans-Light", 'sans-serif';
     color: white;
     width: 25%;
 }
@@ -202,7 +202,7 @@ a:hover .arrow-menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'sans-serif';
 
 }
 .contactText li{
@@ -247,7 +247,7 @@ a:hover .arrow-menu {
     background: none;
     border: 1px solid white;
     border-radius: 2px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'sans-serif';
     cursor: pointer;
 }
 .websiteCredits{
@@ -257,7 +257,7 @@ a:hover .arrow-menu {
 .websiteCredits p{
     display: inline-block;
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'sans-serif';
     font-weight: 100;
     
 }
@@ -301,11 +301,11 @@ a:hover .arrow-menu {
     margin-left: 15px;
     margin-right: 30px;
     margin-top: 10px;
-    font-family: 'WorkSans-Light';
+    font-family: 'WorkSans-Light', 'sans-serif';
 }
 .design-projects-section ul {
     font-size: 18px;
-    font-family: "Manrope";
+    font-family: "Manrope-Regular", 'sans-serif';
 }
 
 .design-projects-section a {
@@ -320,7 +320,7 @@ a:hover .arrow-menu {
 
 /* gallery */
 .messageText-gallery{
-    font-family: "WorkSans-Light";
+    font-family: "WorkSans-Light", 'sans-serif';
     margin-left: 30px;
 }
 
